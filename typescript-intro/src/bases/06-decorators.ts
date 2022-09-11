@@ -27,7 +27,7 @@ export class Pokemon {
     console.log(`${this.name.toUpperCase()} !!!`);
   }
 
-  @Deprecated("Most use speak2 method instead")
+  @Deprecated("Must use speak2 method instead")
   public speak() {
     console.log(`${this.name}, ${this.name}`);
   }
