@@ -45,6 +45,13 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Populating the DB
+
+```bash
+# Make a POST request to
+http://localhost:3000/seed
+```
+
 ## Test
 
 ```bash
